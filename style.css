@@ -207,7 +207,7 @@ header {
 
 .section-one > .hero-text > button {
   background-color: #3882f6;
-  border-color: #3882f6;
+  border: none;
   color: #f9faf8;
   border-radius: 8px;
   padding: 12px 30px;
