@@ -265,16 +265,7 @@ header {
   font-size: 18px;
 }
 
-/* Footer Part */
-footer {
-  background-color: #1f2937;
-  color: #e5e7eb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 0;
-}
-
+/* Section Three */
 .section-three {
   background-color: #e5e7eb;
   padding: 100px 0;
@@ -289,16 +280,17 @@ footer {
   font-weight: 100;
   width: 800px;
   margin: 0;
-  line-height: 1.2em;
+  line-height: 40px;
 }
 
 .section-three > div {
-  padding: 0 0 0 400px;
+  padding: 0 0 0 500px;
   font-weight: 800;
-  font-size: 1.5em;
+  font-size: 30px;
 }
 
-.section-4 {
+/* Signup Part */
+.signup-section {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -339,4 +331,14 @@ footer {
   width: 140px;
   height: 40px;
   font-size: 1.2em;
+}
+
+/* Footer Part */
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
 }
