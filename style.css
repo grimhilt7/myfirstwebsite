@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 400px;
+
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+.navs > ul > li {
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.navs > ul {
+  display: flex;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 500;
+  color: #f9faf8;
+}
+
+.section-1 {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+  padding: 100px 0px;
+}
+
+.section-1 > img {
+  width: 300px;
+  height: 250px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 500px;
+}
+
+.text-box > h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  line-height: 1.2em;
+}
+
+.text-box > p {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 1.2em;
+}
+
+.text-box > button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 20px;
+  width: 150px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.section-2 > h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+[class^="card-"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+[class^="card-"] > img {
+  border: 5px #3882f6 solid;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+[class^="card-"] > p {
+  width: 200px;
+  text-align: center;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #1f2937;
+  color:#e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.section-3 {
+  background-color: #e5e7eb;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-3 > p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  width: 800px;
+  margin: 0;
+  line-height: 1.2em;
+}
+
+.section-3 > div {
+  padding: 0 0 0 400px;
+  font-weight: 800;
+  font-size: 1.5em;
+}
