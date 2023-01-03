@@ -131,7 +131,8 @@ table {
 /* ----- Meyer's Reset End ----- */
 
 body {
-  font-family:  Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   margin: 0;
   padding: 0;
 }
@@ -168,10 +169,9 @@ header {
   gap: 30px;
 }
 
-
 /* Content Part */
 /* Section One */
-.section-1 {
+.section-one {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
@@ -180,31 +180,31 @@ header {
   padding: 100px 150px;
 }
 
-.section-1 > .hero-image {
+.section-one > .hero-image {
   height: 250px;
   display: flex;
 }
 
-.section-1 > .hero-text {
+.section-one > .hero-text {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 500px;
 }
 
-.section-1 > .hero-text > h1 {
+.section-one > .hero-text > h1 {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
 }
 
-.section-1 > .hero-text > p {
+.section-one > .hero-text > p {
   font-size: 18px;
   color: #e5e7eb;
   line-height: 30px;
 }
 
-.section-1 > .hero-text > button {
+.section-one > .hero-text > button {
   background-color: #3882f6;
   border-color: #3882f6;
   color: #f9faf8;
@@ -215,7 +215,7 @@ header {
 }
 
 /* Section Two */
-.section-2 {
+.section-two {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -224,49 +224,58 @@ header {
   padding: 50px 0 150px 0;
 }
 
-.section-2 > h1 {
+.section-two > .information-text {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
 }
 
-.cards {
+.section-two .cards {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
 }
 
-[class^="card-"] {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
-[class^="card-"] > img {
-  border: 5px #3882f6 solid;
-  border-radius: 15px;
+.card .image {
   width: 150px;
   height: 150px;
+
+  border: 5px #3882f6 solid;
+  border-radius: 15px;
+
+  overflow: hidden;
 }
 
-[class^="card-"] > p {
-  width: 200px;
+.card img {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.card p {
+  width: 150px;
   text-align: center;
   color: #1f2937;
   font-size: 18px;
 }
 
+/* Footer Part */
 footer {
   background-color: #1f2937;
-  color:#e5e7eb;
+  color: #e5e7eb;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px 0;
 }
 
-.section-3 {
+.section-three {
   background-color: #e5e7eb;
   padding: 100px 0;
   display: flex;
@@ -274,7 +283,7 @@ footer {
   align-items: center;
 }
 
-.section-3 > p {
+.section-three > p {
   font-size: 36px;
   font-style: italic;
   font-weight: 100;
@@ -283,7 +292,7 @@ footer {
   line-height: 1.2em;
 }
 
-.section-3 > div {
+.section-three > div {
   padding: 0 0 0 400px;
   font-weight: 800;
   font-size: 1.5em;
@@ -311,8 +320,8 @@ footer {
 }
 
 .text > h1 {
- font-weight: 800;
- font-size: 1.3em;
+  font-weight: 800;
+  font-size: 1.3em;
 }
 
 .text {
