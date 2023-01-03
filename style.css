@@ -135,6 +135,7 @@ body {
     "Segoe UI Symbol";
   margin: 0;
   padding: 0;
+
 }
 
 /* Header Part */
@@ -289,13 +290,7 @@ header {
   font-size: 30px;
 }
 
-/* Signup Part */
-.signup-section {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
+/* Signup box part */
 .signup-box {
   background-color: #3882f6;
   color: #e5e7eb;
@@ -311,34 +306,42 @@ header {
   align-items: center;
 }
 
-.text > h1 {
+.signup-box h1 {
   font-weight: 800;
-  font-size: 1.3em;
+  font-size: 30px;
 }
 
-.text {
+.text-box {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 8px;
+  gap: 10px;
 }
 
-.sign-up {
+.signup-button {
   background-color: #3882f6;
   border: 2px #e5e7eb solid;
   border-radius: 8px;
   color: #e5e7eb;
   width: 140px;
   height: 40px;
-  font-size: 1.2em;
+  font-size: 20px;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Footer Part */
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding: 40px 0;
 }
